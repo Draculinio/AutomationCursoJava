@@ -1,0 +1,7 @@
+1.ID
+
+<p id="lorem">Lorem ipsum saraza bla bla bla</p>
+
+2.Name
+
+<p name="myLorem">Lorem ipsum saraza bla bla bla</p>
