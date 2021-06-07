@@ -5,3 +5,21 @@
 2.Name
 
 <p name="myLorem">Lorem ipsum saraza bla bla bla</p>
+
+3.LinkText
+
+<a href="wwww.google.com">Ir a google</a>
+
+4.Partial Link Text
+
+<a href="wwww.google.com">Ir a google</a>
+
+5. XPATH
+
+Buscador por tags
+
+6. CSS Selector
+
+<p class="redParagraph">kfsjflkdjf</p>
+
+7.Tag

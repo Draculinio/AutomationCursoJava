@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-test_SearchTest">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-test_SearchTest" title="test.SearchTest" class="method navigator-link" hash-for-method="testSearchwithResults">testSearchwithResults</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-test_SearchTest" title="test.SearchTest" class="method navigator-link" hash-for-method="testSearchWithResult">testSearchWithResult</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-test_SearchTest" title="test.SearchTest" class="method navigator-link" hash-for-method="testSearchWithoutResult">testSearchWithoutResult</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-test_SearchTest -->
@@ -127,9 +132,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testSearchwithResults">
-                  </a> <!-- testSearchwithResults -->
-                  <span class="method-name">testSearchwithResults</span>
+                  <a name="testSearchWithResult">
+                  </a> <!-- testSearchWithResult -->
+                  <span class="method-name">testSearchWithResult</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchWithoutResult">
+                  </a> <!-- testSearchWithoutResult -->
+                  <span class="method-name">testSearchWithoutResult</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testSearchwithResults')
+data.setCell(0, 1, 'testSearchWithResult')
 data.setCell(0, 2, 'test.SearchTest')
-data.setCell(0, 3, 6787);
+data.setCell(0, 3, 18877);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearchWithoutResult')
+data.setCell(1, 2, 'test.SearchTest')
+data.setCell(1, 3, 12771);
 window.suiteTableData['test_SearchTest']= { tableData: data, tableDiv: 'times-div-test_SearchTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-test_SearchTest">
               </div> <!-- times-div-test_SearchTest -->
             </div> <!-- times-div -->
@@ -222,8 +238,12 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">test.SearchTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">testSearchwithResults</span>
+                <span class="method-name">testSearchWithResult</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchWithoutResult</span>
+                <span class="method-start">18886 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
