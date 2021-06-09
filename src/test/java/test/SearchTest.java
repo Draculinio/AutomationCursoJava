@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import extras.Waiter;
 import pageObjects.Articles;
 import pageObjects.Principal;
 
@@ -45,22 +46,16 @@ public class SearchTest {
 	@Test
 	public void testSearchWithResult() {
 		principal.search("dress");
-		this.waitForPage(4000);
+		Waiter.waitForPage(4000);
 		Assert.assertTrue(articles.articleName().contains("DRESS"),"Expected to contain DRESS but not found");
 	}
 	
 	@Test
 	public void testSearchWithoutResult() {
 		principal.search("hola mundo");
-		this.waitForPage(4000);
+		Waiter.waitForPage(4000);
 		Assert.assertTrue(articles.errorMessage().contains("No results"), "Expected to contain no results text");
 	}
 	
-	public void waitForPage(int milis) {
-		try {
-			Thread.sleep(milis);
-		} catch (InterruptedException e) {
-			System.out.println("Hubo una interrupcion");
-		}
-	}
+	
 }
