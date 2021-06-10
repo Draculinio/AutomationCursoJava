@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="test.SearchTest" time="11.759" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="18.952" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -60,6 +60,7 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.SearchTest" name="testSearchWithResult" time="5.842"/>
-  <testcase classname="test.SearchTest" name="testSearchWithoutResult" time="5.917"/>
+  <testcase classname="test.OrderTest" name="searchByHigherPriceTest" time="7.284"/>
+  <testcase classname="test.SearchTest" name="testSearchWithResult" time="5.741"/>
+  <testcase classname="test.SearchTest" name="testSearchWithoutResult" time="5.927"/>
 </testsuite>
