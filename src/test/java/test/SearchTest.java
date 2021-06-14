@@ -1,5 +1,7 @@
 package test;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -25,6 +27,8 @@ public class SearchTest {
 		driver.navigate().to("http://automationpractice.com/");
 		principal = new Principal(driver);
 		articles = new Articles(driver);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
 	}
 	
 	@AfterTest
@@ -46,14 +50,12 @@ public class SearchTest {
 	@Test
 	public void testSearchWithResult() {
 		principal.search("dress");
-		Waiter.waitForPage(4000);
 		Assert.assertTrue(articles.articleName().contains("DRESS"),"Expected to contain DRESS but not found");
 	}
 	
 	@Test
 	public void testSearchWithoutResult() {
 		principal.search("hola mundo");
-		Waiter.waitForPage(4000);
 		Assert.assertTrue(articles.errorMessage().contains("No results"), "Expected to contain no results text");
 	}
 	

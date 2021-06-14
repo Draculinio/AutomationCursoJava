@@ -1,5 +1,7 @@
 package test;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
@@ -21,6 +23,8 @@ public class OrderTest {
 		driver.navigate().to("http://automationpractice.com/");
 		principal = new Principal(driver);
 		articles = new Articles(driver);
+		//Implicit wait: Da un tiempo de timeout a cualquier operacion
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
 	@AfterTest
@@ -32,7 +36,6 @@ public class OrderTest {
 	@Test
 	public void searchByHigherPriceTest() {
 		principal.search("dress");
-		Waiter.waitForPage(4000);
 		articles.selectArticleByText("Price: Highest first");
 	}
 }
