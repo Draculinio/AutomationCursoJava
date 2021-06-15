@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="TestSuite" time="39.231" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="TestSuite" time="3.714" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -43,7 +43,7 @@
     <property name="java.class.path" value="C:\Users\pablo\programacion\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -e"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.home" value="C:\Users\pablo\java\jdk-13"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,26 +60,7 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.OrderTest" name="searchByHigherPriceTest" time="4.922"/>
-  <testcase classname="test.SearchTest" name="testSearchWithResult" time="32.297">
-    <failure message="Expected condition failed: waiting for text (&apos;dfsklfjaldfj&apos;) to be present in element [[ChromeDriver: chrome on WINDOWS (4d93a622e4f68d4d0ef04d4983f249d5)] -&gt; class name: lighter] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-MDM1H7HV&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\pablo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d93a622e4f68d4d0ef04d4983f249d5" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text (&apos;dfsklfjaldfj&apos;) to be present in element [[ChromeDriver: chrome on WINDOWS (4d93a622e4f68d4d0ef04d4983f249d5)] -&gt; class name: lighter] (tried for 30 second(s) with 500 milliseconds interval)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;LAPTOP-MDM1H7HV&apos;, ip: &apos;192.168.1.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\pablo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51100}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d93a622e4f68d4d0ef04d4983f249d5
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at pageObjects.Articles.articleName(Articles.java:27)
-	at test.SearchTest.testSearchWithResult(SearchTest.java:53)
-</failure>
-    <system-out>Empieza un test
-</system-out>
-  </testcase>
-  <testcase classname="test.SearchTest" name="testSearchWithoutResult" time="2.012"/>
+  <testcase classname="test.OrderTest" name="searchByHigherPriceTest" time="3.709"/>
+  <testcase classname="test.SearchTest" name="testSearchWithResult" time="0.005"/>
+  <testcase classname="test.SearchTest" name="testSearchWithoutResult" time="0"/>
 </testsuite>

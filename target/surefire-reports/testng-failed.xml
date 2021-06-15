@@ -6,10 +6,11 @@
       <class name="test.SearchTest">
         <methods>
           <include name="testSearchWithResult"/>
+          <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
+          <include name="testSearchWithoutResult"/>
           <include name="beforeMethod"/>
-          <include name="afterTest"/>
         </methods>
       </class> <!-- test.SearchTest -->
     </classes>
