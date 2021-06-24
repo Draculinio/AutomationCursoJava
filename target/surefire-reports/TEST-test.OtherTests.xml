@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="test.SearchTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="0" failures="0" name="test.OtherTests" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="13+33"/>
@@ -14,7 +14,7 @@
     <property name="user.script" value=""/>
     <property name="user.country" value="AR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="test" value="SearchTest#testSearchWithResult"/>
+    <property name="test" value="OtherTests#testTrue+testFalse"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\pablo\eclipse-workspace\test"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
@@ -44,7 +44,7 @@
     <property name="java.class.path" value="C:\Users\pablo\programacion\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="13"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=SearchTest#testSearchWithResult test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=OtherTests#testTrue+testFalse test"/>
     <property name="java.home" value="C:\Users\pablo\java\jdk-13"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -61,5 +61,4 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="test.SearchTest" name="testSearchWithResult" time="0.004"/>
 </testsuite>

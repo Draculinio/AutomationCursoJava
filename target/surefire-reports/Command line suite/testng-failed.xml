@@ -9,7 +9,6 @@
           <include name="afterTest"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="testSearchWithoutResult"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- test.SearchTest -->

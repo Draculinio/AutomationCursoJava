@@ -1,58 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+<testng-results ignored="3" total="5" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-15T18:02:43 ART" name="Command line suite" finished-at="2021-06-15T18:03:08 ART" duration-ms="25327">
+  <suite started-at="2021-06-16T17:57:27 ART" name="Command line suite" finished-at="2021-06-16T17:58:38 ART" duration-ms="71111">
     <groups>
     </groups>
-    <test started-at="2021-06-15T18:02:43 ART" name="Command line test" finished-at="2021-06-15T18:03:08 ART" duration-ms="25327">
+    <test started-at="2021-06-16T17:57:27 ART" name="Command line test" finished-at="2021-06-16T17:58:38 ART" duration-ms="71111">
       <class name="test.OrderTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-15T18:02:43 ART" name="beforeTest" finished-at="2021-06-15T18:02:43 ART" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-16T17:57:27 ART" name="beforeTest" finished-at="2021-06-16T17:57:27 ART" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-15T18:02:43 ART" name="beforeMethod" finished-at="2021-06-15T18:02:50 ART" duration-ms="7423" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-16T17:57:27 ART" name="beforeMethod" finished-at="2021-06-16T17:57:44 ART" duration-ms="16424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="searchByHigherPriceTest()[pri:10, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-15T18:02:50 ART" name="searchByHigherPriceTest" description="Tests order by higher price" finished-at="2021-06-15T18:02:54 ART" duration-ms="3706" status="PASS">
+        <test-method signature="searchByHigherPriceTest()[pri:10, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-16T17:57:44 ART" name="searchByHigherPriceTest" description="Tests order by higher price" finished-at="2021-06-16T17:57:48 ART" duration-ms="4562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchByHigherPriceTest -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-15T18:02:54 ART" name="afterMethod" finished-at="2021-06-15T18:02:55 ART" duration-ms="778" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-16T17:57:48 ART" name="afterMethod" finished-at="2021-06-16T17:57:49 ART" duration-ms="661" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-15T18:03:08 ART" name="afterTest" finished-at="2021-06-15T18:03:08 ART" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.OrderTest@4bb4de6a]" started-at="2021-06-16T17:58:38 ART" name="afterTest" finished-at="2021-06-16T17:58:38 ART" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- test.OrderTest -->
       <class name="test.SearchTest">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-15T18:02:55 ART" name="beforeMethod" finished-at="2021-06-15T18:03:01 ART" duration-ms="5813" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-16T17:57:49 ART" name="beforeMethod" finished-at="2021-06-16T17:58:01 ART" duration-ms="12471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testSearchWithResult()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-15T18:03:01 ART" name="testSearchWithResult" description="This is a search with results WIP" finished-at="2021-06-15T18:03:01 ART" duration-ms="4" status="PASS">
+        <test-method signature="testSearchWithResult()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-16T17:58:01 ART" name="testSearchWithResult" description="This is a search with results WIP" finished-at="2021-06-16T17:58:38 ART" duration-ms="36298" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for text ('dfsklfjaldfj') to be present in element [[ChromeDriver: chrome on WINDOWS (1b54d78e4d90c550fd2662fda3759ac5)] -> class name: lighter] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDM1H7HV', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\pablo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b54d78e4d90c550fd2662fda3759ac5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('dfsklfjaldfj') to be present in element [[ChromeDriver: chrome on WINDOWS (1b54d78e4d90c550fd2662fda3759ac5)] -> class name: lighter] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-MDM1H7HV', ip: '192.168.1.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.106, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: C:\Users\pablo\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55105}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b54d78e4d90c550fd2662fda3759ac5
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pageObjects.Articles.articleName(Articles.java:27)
+at test.SearchTest.testSearchWithResult(SearchTest.java:13)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchWithResult -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-15T18:03:01 ART" name="afterMethod" finished-at="2021-06-15T18:03:02 ART" duration-ms="821" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-16T17:58:38 ART" name="afterMethod" finished-at="2021-06-16T17:58:38 ART" duration-ms="627" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-15T18:03:02 ART" name="beforeMethod" finished-at="2021-06-15T18:03:07 ART" duration-ms="5893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-15T18:03:07 ART" name="afterMethod" finished-at="2021-06-15T18:03:08 ART" duration-ms="816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testSearchWithoutResult()[pri:0, instance:test.SearchTest@6483f5ae]" started-at="2021-06-15T18:03:07 ART" name="testSearchWithoutResult" description="This is a search that has no results" finished-at="2021-06-15T18:03:07 ART" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchWithoutResult -->
       </class> <!-- test.SearchTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
